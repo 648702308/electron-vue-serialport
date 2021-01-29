@@ -1,5 +1,5 @@
-
-
+![](files/1.png)
+![](files/2.png)
 
 # 项目运行环境
 ### 1，必须安装nodejs
@@ -24,7 +24,7 @@ npm config set msvs_version 2017
 
 ``` bash
 # clone到本地
-git clone https://github.com/BaiFangZi/electron-serialport.git
+git clone https://github.com/648702308/electron-vue-serialport.git
 
 # 切换到项目目录
 npm install`或者`cnpm install
@@ -37,9 +37,11 @@ node-gyp rebuild --target=6.0.10 --arch=ia32 --dist-url=https://npm.taobao.org/m
 
 # --target electron 版本
 
-# 可能出现的问题 node-gyp rebuild --target=6.0.10 --arch=ia32 --dist-url=https://npm.taobao.org/mirrors/atom-shell 使用ia32编译在开发模式正常，build时会报错
+# 可能出现的问题 node-gyp rebuild --target=6.0.10 --arch=ia32 --dist-url=https://npm.taobao.org/mirrors/atom-shell
+使用ia32编译在开发模式正常，build时会报错
 
-# 可能出现的问题 node-gyp rebuild --target=6.0.10 --arch=x64 --dist-url=https://npm.taobao.org/mirrors/atom-shell 使用ia32编译在开发模式报错，build时会正常
+# 可能出现的问题 node-gyp rebuild --target=6.0.10 --arch=x64 --dist-url=https://npm.taobao.org/mirrors/atom-shell
+使用ia32编译在开发模式报错，build时会正常
 
 # 具体原因 暂时不知道
 # 有哪位大神知道请告知
