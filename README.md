@@ -13,6 +13,7 @@
 node下载地址-[Nodejs](http://nodejs.cn/download/)
 
 ### 2，安装node-gyp
+
 node-gyp是用来编译c++模块的工具，这里用来编译serialport，
 node-gyp的github文档-[node-gyp文档](https://github.com/nodejs/node-gyp)
 
