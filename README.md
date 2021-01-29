@@ -1,5 +1,5 @@
-![](https://github.com/648702308/electron-vue-serialport/files/1.png)
-![](https://github.com/648702308/electron-vue-serialport/files/2.png)
+![](https://github.com/648702308/electron-vue-serialport/blob/main/files/1.png)
+![](https://github.com/648702308/electron-vue-serialport/blob/main/files/2.png)
 
 # 项目运行环境
 ### 1，必须安装nodejs
