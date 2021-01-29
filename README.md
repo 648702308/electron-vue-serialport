@@ -24,7 +24,7 @@ node-gyp的github文档-[node-gyp文档](https://github.com/nodejs/node-gyp)
 安装完成之后执行一下命令
 npm config set msvs_version 2017
 
-> 其他安装方法自行百度
+> 其他安装方法……百度
 
 ## 项目的安装与使用
 ### clone到本地
