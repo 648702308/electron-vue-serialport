@@ -1,0 +1,49 @@
+/* grid布局 */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  &.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  &.no-gutter [class*="col-"] {
+    padding: 0;
+  }
+}
+
+.grid .grid-square {
+  overflow: hidden;
+}
+
+.grid .col-1 {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.grid .col-2 {
+  width: calc(100% / 2);
+  padding: 0 10px;
+}
+
+.grid .col-3 {
+  width: calc(100% / 3);
+  padding: 0 10px;
+}
+
+.grid .col-4 {
+  width: calc(100% / 4);
+  padding: 0 10px;
+}
+
+.grid .col-5 {
+  width: calc(100% / 5);
+  padding: 0 10px;
+}
+
+.grid .col-6 {
+  width: calc(100% / 6);
+  padding: 0 10px;
+}

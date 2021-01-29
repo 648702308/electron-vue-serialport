@@ -35,6 +35,15 @@ node-gyp rebuild --target=6.0.10 --arch=x64 --dist-url=https://npm.taobao.org/mi
 或
 node-gyp rebuild --target=6.0.10 --arch=ia32 --dist-url=https://npm.taobao.org/mirrors/atom-shell
 
+# --target electron 版本
+
+# 可能出现的问题 node-gyp rebuild --target=6.0.10 --arch=ia32 --dist-url=https://npm.taobao.org/mirrors/atom-shell 使用ia32编译在开发模式正常，build时会报错
+
+# 可能出现的问题 node-gyp rebuild --target=6.0.10 --arch=x64 --dist-url=https://npm.taobao.org/mirrors/atom-shell 使用ia32编译在开发模式报错，build时会正常
+
+# 具体原因 暂时不知道
+# 有哪位大神知道请告知
+
 # 然后再返回根目录
 cd ../../../
 

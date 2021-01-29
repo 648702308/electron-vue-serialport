@@ -1,0 +1,407 @@
+/* ==================
+          背景
+ ==================== */
+
+.line-red::after, .lines-red::after {
+  border-color: $red;
+}
+
+.line-orange::after, .lines-orange::after {
+  border-color: $orange;
+}
+
+.line-yellow::after, .lines-yellow::after {
+  border-color: $yellow;
+}
+
+.line-olive::after, .lines-olive::after {
+  border-color: $olive;
+}
+
+.line-green::after, .lines-green::after {
+  border-color: $green;
+}
+
+.line-cyan::after, .lines-cyan::after {
+  border-color: $cyan;
+}
+
+.line-blue::after, .lines-blue::after {
+  border-color: $blue;
+}
+
+.line-purple::after, .lines-purple::after {
+  border-color: $purple;
+}
+
+.line-mauve::after, .lines-mauve::after {
+  border-color: $mauve;
+}
+
+.line-pink::after, .lines-pink::after {
+  border-color: $pink;
+}
+
+.line-brown::after, .lines-brown::after {
+  border-color: $brown;
+}
+
+.line-grey::after, .lines-grey::after {
+  border-color: $grey;
+}
+
+.line-gray::after, .lines-gray::after {
+  border-color: $gray;
+}
+
+.line-black::after, .lines-black::after {
+  border-color: $black;
+}
+
+.line-white::after, .lines-white::after {
+  border-color: $white;
+}
+
+.bg-red {
+  background-color: $red;
+  color: $white;
+}
+
+.bg-orange {
+  background-color: $orange;
+  color: $white;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+  color: $black;
+}
+
+.bg-olive {
+  background-color: $olive;
+  color: $white;
+}
+
+.bg-green {
+  background-color: $green;
+  color: $white;
+}
+
+.bg-cyan {
+  background-color: $cyan;
+  color: $white;
+}
+
+.bg-blue {
+  background-color: $blue;
+  color: $white;
+}
+
+.bg-purple {
+  background-color: $purple;
+  color: $white;
+}
+
+.bg-mauve {
+  background-color: $mauve;
+  color: $white;
+}
+
+.bg-pink {
+  background-color: $pink;
+  color: $white;
+}
+
+.bg-brown {
+  background-color: $brown;
+  color: $white;
+}
+
+.bg-grey {
+  background-color: $grey;
+  color: $white;
+}
+
+.bg-gray {
+  background-color: #f0f0f0;
+  color: $black;
+}
+
+.bg-black {
+  background-color: $black;
+  color: $white;
+}
+
+.bg-white {
+  background-color: $white;
+  color: $black;
+}
+
+.bg-shadeTop {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.01));
+  color: $white;
+}
+
+.bg-shadeBottom {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 1));
+  color: $white;
+}
+
+.bg-red.light {
+  color: $red;
+  background-color: $redLight;
+}
+
+.bg-orange.light {
+  color: $orange;
+  background-color: $orangeLight;
+}
+
+.bg-yellow.light {
+  color: $yellow;
+  background-color: $yellowLight;
+}
+
+.bg-olive.light {
+  color: $olive;
+  background-color: $oliveLight;
+}
+
+.bg-green.light {
+  color: $green;
+  background-color: $greenLight;
+}
+
+.bg-cyan.light {
+  color: $cyan;
+  background-color: $cyanLight;
+}
+
+.bg-blue.light {
+  color: $blue;
+  background-color: $blueLight;
+}
+
+.bg-purple.light {
+  color: $purple;
+  background-color: $purpleLight;
+}
+
+.bg-mauve.light {
+  color: $mauve;
+  background-color: $mauveLight;
+}
+
+.bg-pink.light {
+  color: $pink;
+  background-color: $pinkLight;
+}
+
+.bg-brown.light {
+  color: $brown;
+  background-color: $brownLight;
+}
+
+.bg-grey.light {
+  color: $grey;
+  background-color: $greyLight;
+}
+
+.bg-gradual-red {
+  background-image: $gradualRed;
+  color: $white;
+}
+
+.hover-gradual-red {
+  &:hover{
+    background-image: $gradualRed;
+    color: $white;
+  }
+}
+
+.bg-gradual-orange {
+  background-image: $gradualOrange;
+  color: $white;
+}
+
+.bg-gradual-green {
+  background-image: $gradualGreen;
+  color: $white;
+}
+
+.bg-gradual-purple {
+  background-image: $gradualPurple;
+  color: $white;
+}
+
+.bg-gradual-pink {
+  background-image: $gradualPink;
+  color: $white;
+}
+
+.bg-gradual-blue {
+  background-image: $gradualBlue;
+  color: $white;
+}
+
+.shadow[class*="-red"] {
+  box-shadow: $ShadowSize $redShadow;
+}
+
+.shadow[class*="-orange"] {
+  box-shadow: $ShadowSize $orangeShadow;
+}
+
+.shadow[class*="-yellow"] {
+  box-shadow: $ShadowSize $yellowShadow;
+}
+
+.shadow[class*="-olive"] {
+  box-shadow: $ShadowSize $oliveShadow;
+}
+
+.shadow[class*="-green"] {
+  box-shadow: $ShadowSize $greenShadow;
+}
+
+.shadow[class*="-cyan"] {
+  box-shadow: $ShadowSize $cyanShadow;
+}
+
+.shadow[class*="-blue"] {
+  box-shadow: $ShadowSize $blueShadow;
+}
+
+.shadow[class*="-purple"] {
+  box-shadow: $ShadowSize $purpleShadow;
+}
+
+.shadow[class*="-mauve"] {
+  box-shadow: $ShadowSize $mauveShadow;
+}
+
+.shadow[class*="-pink"] {
+  box-shadow: $ShadowSize $pinkShadow;
+}
+
+.shadow[class*="-brown"] {
+  box-shadow: $ShadowSize $brownShadow;
+}
+
+.shadow[class*="-grey"] {
+  box-shadow: $ShadowSize $greyShadow;
+}
+
+.shadow[class*="-gray"] {
+  box-shadow: $ShadowSize $grayShadow;
+}
+
+.shadow[class*="-black"] {
+  box-shadow: $ShadowSize $blackShadow;
+}
+
+.shadow[class*="-white"] {
+  box-shadow: $ShadowSize $blackShadow;
+}
+
+.text-shadow[class*="-red"] {
+  text-shadow: $ShadowSize $redShadow;
+}
+
+.text-shadow[class*="-orange"] {
+  text-shadow: $ShadowSize $orangeShadow;
+}
+
+.text-shadow[class*="-yellow"] {
+  text-shadow: $ShadowSize $yellowShadow;
+}
+
+.text-shadow[class*="-olive"] {
+  text-shadow: $ShadowSize $oliveShadow;
+}
+
+.text-shadow[class*="-green"] {
+  text-shadow: $ShadowSize $greenShadow;
+}
+
+.text-shadow[class*="-cyan"] {
+  text-shadow: $ShadowSize $cyanShadow;
+}
+
+.text-shadow[class*="-blue"] {
+  text-shadow: $ShadowSize $blueShadow;
+}
+
+.text-shadow[class*="-purple"] {
+  text-shadow: $ShadowSize $purpleShadow;
+}
+
+.text-shadow[class*="-mauve"] {
+  text-shadow: $ShadowSize $mauveShadow;
+}
+
+.text-shadow[class*="-pink"] {
+  text-shadow: $ShadowSize $pinkShadow;
+}
+
+.text-shadow[class*="-brown"] {
+  text-shadow: $ShadowSize $brownShadow;
+}
+
+.text-shadow[class*="-grey"] {
+  text-shadow: $ShadowSize $greyShadow;
+}
+
+.text-shadow[class*="-gray"] {
+  text-shadow: $ShadowSize $grayShadow;
+}
+
+.text-shadow[class*="-black"] {
+  text-shadow: $ShadowSize $blackShadow;
+}
+
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-mask {
+  background-color: $black;
+  position: relative;
+}
+
+.bg-mask::after {
+  content: "";
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.bg-mask view, .bg-mask {
+  z-index: 5;
+  position: relative;
+}
+
+.bg-video {
+  position: relative;
+}
+
+.bg-video video {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  pointer-events: none;
+}
