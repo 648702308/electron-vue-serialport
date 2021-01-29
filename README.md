@@ -1,6 +1,11 @@
 ![](https://github.com/648702308/electron-vue-serialport/blob/main/files/1.png)
 ![](https://github.com/648702308/electron-vue-serialport/blob/main/files/2.png)
 
+# 项目参考
+> https://github.com/BaiFangZi/electron-serialport(https://github.com/BaiFangZi/electron-serialport)
+> https://www.it610.com/article/1304233018344378368.htm(https://www.it610.com/article/1304233018344378368.htm)
+> https://blog.csdn.net/weixin_36250061/article/details/103472978(https://blog.csdn.net/weixin_36250061/article/details/103472978)
+
 # 项目运行环境
 ### 1，必须安装nodejs
 node下载地址-[Nodejs](http://nodejs.cn/download/)
