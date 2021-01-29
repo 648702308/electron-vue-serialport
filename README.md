@@ -3,7 +3,9 @@
 
 # 项目参考
 > [https://github.com/BaiFangZi/electron-serialport](https://github.com/BaiFangZi/electron-serialport)
+
 > [https://www.it610.com/article/1304233018344378368.htm](https://www.it610.com/article/1304233018344378368.htm)
+
 > [https://blog.csdn.net/weixin_36250061/article/details/103472978](https://blog.csdn.net/weixin_36250061/article/details/103472978)
 
 # 项目运行环境
