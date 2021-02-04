@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "electron-vue-serialport",
   "version": "0.0.1",
   "author": "648702308 <648702308@qq.com>",
   "description": "An electron-vue project",
@@ -22,7 +22,7 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "my-project",
+    "productName": "electron-vue-serialport",
     "appId": "com.example.yourapp",
     "directories": {
       "output": "build"
